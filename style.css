@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nanum+Gothic&family=Open+Sans:wght@300;600&family=Poppins:wght@100;300;400;500;600;800&family=Roboto:wght@100;300&family=Updock&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #202938;
+  padding: 1.5rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* .fixed {
+  position: fixed;
+} */
+header p {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: "poppins";
+}
+header ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+header ul li {
+  margin: 0.6rem;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+#sign-up {
+  background-color: #202938;
+  padding: 5rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#sign-up h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Arial;
+}
+#sign-up p {
+  color: white;
+  margin: 10px 0px;
+  font-family: "poppins";
+}
+#sign-up button {
+  margin: 10px 0px;
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: "poppins";
+}
+#sign-up button:hover {
+  color: #3b82f6;
+  background-color: white;
+  transition: 0.3s ease;
+}
+.awesome-web {
+  margin: 15px;
+}
+.placeholder {
+  margin: 15px;
+  font-family: "poppins";
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 6rem 5rem;
+  background-color: #6d747e;
+}
+#info h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.blue-box {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 15rem;
+}
+.image-placeholder {
+  border: 2px solid #3b82f6;
+  padding: 5rem;
+  border-radius: 10px;
+}
+.subtext {
+  margin: 1.1rem;
+}
+.subtext p {
+  text-align: center;
+  font-family: "poppins";
+  margin-top: 0.5rem;
+}
+#quotes {
+  padding: 6rem 17rem;
+  background-color: #e6e7eb;
+}
+#quotes p {
+  font-size: 1.5rem;
+  font-family: "poppins";
+}
+#quotes span {
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+}
+#action {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 10rem;
+  padding: 2.5rem;
+  background-color: #3b82f6;
+}
+#action p {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial;
+}
+#action span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#action button {
+  border: 1px solid white;
+  padding: 0.4rem 2rem;
+  color: white;
+  background-color: #3b82f6;
+  font-weight: bold;
+  font-family: "poppins";
+}
+#action button:hover {
+  color: #3b82f6;
+  background-color: white;
+  transition: 0.3s ease;
+}
+footer {
+  background-color: #202938;
+  text-align: center;
+  padding: 1.3rem;
+  /* position: fixed; */
+}
+footer p {
+  font-size: 1.2rem;
+  font-family: "poppins";
+  color: white;
+}
+/* media query for phone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 500px) {
+  header {
+    /* position: fixed;
+    top: 0; */
+    padding: 1rem 2rem;
+  }
+  #sign-up {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #sign-up h1 {
+    font-size: 2rem;
+  }
+  .blue-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  #info h2 {
+    font-size: 6vw;
+  }
+  .subtext {
+    margin: 1rem 6rem;
+  }
+  #quotes {
+    padding: 1.5rem;
+  }
+  #quotes p {
+    font-size: 4vw;
+  }
+  #action {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #action button {
+    margin: 1rem 4rem;
+  }
+  header ul {
+    font-size: 3vw;
+  }
+  header p {
+    font-size: 4vw;
+  }
+  footer {
+    padding: 2rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+/* media query for tablet*/
+@media only screen and (min-device-width: 500px) and (max-device-width: 800px) {
+  header {
+    padding: 2.3rem 3rem;
+  }
+  header p {
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+  }
+  #sign-up h1 {
+    font-size: 2rem;
+  }
+  #sign-up {
+    padding: 2rem;
+  }
+  .placeholder {
+    padding: 4rem 2rem;
+  }
+  .placeholder p {
+    font-size: 1.1rem;
+  }
+  .blue-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #quotes {
+    padding: 3rem;
+  }
+  #action {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1rem;
+  }
+  #action button {
+    margin: 1rem 4rem;
+  }
+  footer {
+    padding: 2rem;
+  }
+}
